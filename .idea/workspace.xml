@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cf196d2-52c5-4fa6-8392-1f3e5701c3d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-microservice-consumer/src/main/java/com/abhilive/kafka_microservice_consumer/service/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-microservice-consumer/src/main/java/com/abhilive/service/ConsumerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-microservice-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-microservice-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-microservice-producer/src/main/java/com/abhilive/kafka_microservice_producer/controller/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-microservice-producer/src/main/java/com/abhilive/kafka_microservice_producer/controller/ProducerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-microservice-producer/src/main/java/com/abhilive/kafka_microservice_producer/service/ProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-microservice-producer/src/main/java/com/abhilive/kafka_microservice_producer/service/ProducerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-microservice-producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-microservice-producer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +29,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,9 +46,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2mgqZbvJMBInPPHXz6RPqkYSLmL" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -49,6 +60,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP Request.Springboot_Kafka-endpoints | #1.executor": "Run",
     "Maven.kafka-microservice-consumer [install].executor": "Run",
     "Maven.kafka-microservice-producer [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -60,7 +72,7 @@
     "Spring Boot.KafkaConsumer.executor": "Debug",
     "Spring Boot.KafkaProducer.executor": "Debug",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/Repos/Springboot-Kafka",
+    "last_opened_file_path": "D:/Projects/Repos/Springboot-Kafka/kafka-microservice-consumer/src/main/java/com/abhilive",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +85,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.KafkaProducer">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Repos\Springboot-Kafka\kafka-microservice-consumer\src\main\java\com\abhilive" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.KafkaConsumer">
+    <configuration name="Springboot_Kafka-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Springboot_Kafka-endpoints.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="KafkaConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="kafka-microservice-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.abhilive.kafka_microservice_consumer.KafkaMicroserviceConsumerApplication" />
@@ -89,16 +109,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.Springboot_Kafka-endpoints | #1" />
       <item itemvalue="Spring Boot.KafkaProducer" />
       <item itemvalue="Spring Boot.KafkaConsumer" />
     </list>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
-      </set>
-    </attachedChunks>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.Springboot_Kafka-endpoints | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,7 +127,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727508624235</updated>
-      <workItem from="1727508625308" duration="5792000" />
+      <workItem from="1727508625308" duration="5947000" />
+      <workItem from="1733582004553" duration="6173000" />
+      <workItem from="1733593691730" duration="1564000" />
     </task>
     <servers />
   </component>
@@ -119,19 +140,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/kafka-microservice-consumer/src/main/java/com/abhilive/service/ConsumerService.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/kafka-microservice-producer/src/main/java/com/abhilive/kafka_microservice_producer/controller/ProducerController.java</url>
-          <line>16</line>
+          <line>20</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/kafka-microservice-producer/src/main/java/com/abhilive/kafka_microservice_producer/service/ProducerService.java</url>
-          <line>19</line>
+          <line>24</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kafka-microservice-consumer/src/main/java/com/abhilive/kafka_microservice_consumer/service/ConsumerService.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
